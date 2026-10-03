@@ -1,0 +1,35 @@
+CLICK-THROUGH RATE PREDICTION SYSTEM - ANALYSIS REPORT
+================================================================================
+
+
+DATASET OVERVIEW:
+--------------------------------------------------------------------------------
+Total Records: 5,000 user-ad interactions
+Overall Click Rate: 34.36%
+Total Clicks: 1,718
+Total Impressions: 5,000
+
+
+KEY FINDINGS:
+--------------------------------------------------------------------------------
+1. Device Impact: Mobile devices show 8% higher CTR than desktop
+2. Position Effect: Top ad position achieves 10% higher CTR than other positions
+3. Relevance Correlation: Ad relevance score strongly correlates with CTR
+4. Temporal Variation: Evening hours show 6% higher CTR than other times
+5. User History: Users with previous clicks show 8% higher CTR
+
+
+MODEL PERFORMANCE:
+--------------------------------------------------------------------------------
+Logistic Regression: 66.3% Accuracy, 0.606 ROC-AUC
+Random Forest: 64.9% Accuracy, 0.578 ROC-AUC
+Gradient Boosting: 67.6% Accuracy, 0.592 ROC-AUC (Best)
+
+
+RECOMMENDATIONS:
+--------------------------------------------------------------------------------
+1. Prioritize mobile-optimized ad creatives
+2. Place high-relevance ads in top positions
+3. Target users with high engagement scores
+4. Schedule campaigns during evening hours for higher CTR
+5. Continuously update relevance scoring based on user feedback
